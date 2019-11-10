@@ -1,0 +1,33 @@
+.item {
+    margin: 20px 0;
+    .inGameImage {
+        margin: 0 auto;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    .titleGroup {
+        margin-bottom: 15px;
+        .icon,
+        .title {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .title {
+            margin: 0 0 0 10px;
+        }
+    }
+    .hoverDescription,
+    .fullDescription,
+    .flyable,
+    .patchIntroduction,
+    .sources {
+        margin-bottom: 3px;
+    }
+}
